@@ -1,0 +1,33 @@
+{
+  "name": "register-microservice-client",
+  "version": "1.0.0",
+  "description": "Library to register/unregister microservice in the Vizzuality api-gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vizzuality/register-microservice-client.git"
+  },
+  "keywords": [
+    "register",
+    "microservice",
+    "api-gateway",
+    "vizzuality"
+  ],
+  "author": "Ra <raul.requero@vizzuality.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vizzuality/register-microservice-client/issues"
+  },
+  "homepage": "https://github.com/Vizzuality/register-microservice-client#readme",
+  "dependencies": {
+    "co": "4.6.0",
+    "co-request": "1.0.0",
+    "debug": "2.2.0",
+    "slug": "0.9.1",
+    "url": "0.11.0",
+    "yaml-js": "0.1.3"
+  }
+}
