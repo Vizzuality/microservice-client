@@ -1,1 +1,1 @@
-module.exports = require('./lib/register.js');
+module.exports = require('./lib/main.js');
