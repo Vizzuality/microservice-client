@@ -15,7 +15,8 @@ In listen callback of express/koajs app add the next code:
         dirConfig: path.join(__dirname, '../microservice'),
         dirPackage: path.join(__dirname, '../../'),
         logger: logger,
-        app: app //koa app object
+        app: app //koa app object,
+        callbackUpdate: <function> // this callback is called when the api-gateway call to info endpoint. Is called with the new token and api-gateway url (same object that getInfo() returns)
     });
     p.then(function() {}, function(err) {
         logger.error(err);
