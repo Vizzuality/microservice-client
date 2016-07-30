@@ -3,11 +3,11 @@ Library to register/unregister microservice in the api-gateway
 
 ## Install
 ````
-npm install --save https://github.com/Vizzuality/register-microservice-client
+npm install --save vizz.microservice-client
 ````
 
 ## Use in microservice
-In listen callback of express/koajs app add the next code:
+In listen callback of koajs app add the next code:
 ````
     var promise = require('register-microservice-client')({
         id: config.get('service.id'),
@@ -27,5 +27,3 @@ In listen callback of express/koajs app add the next code:
 This code, call to register library with the config of the microservice. All config is required. Is necesary defined 1 environment variables when you are developing in develop environment. This variables are:
 
 *  API_GATEWAY_URL =  Url of the api-gateway. For example: http://192.168.99.100:8000
-
-The token is generated from id of the microservice in dev environment
