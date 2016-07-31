@@ -31,6 +31,7 @@ This code, call to register library with the config of the microservice. All con
 
 ## API Reference
 ### register([opts]) => Return Promise Object
+Register /info endpoint and in local environment, it make a request to /refresh endpoint in api-gateway to the api-gateway refresh his configuration.
 ```
 // Config the microservice client to listen /info endpoint in this microservice.
     var p = require('vizz.microservice-client').register({
