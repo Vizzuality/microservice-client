@@ -57,7 +57,6 @@ Register /info endpoint and in local environment, it make a request to /refresh 
 | [opts.dirPackage] | <code>String (required)</code> | Folder dir where it is the package.json file |
 | [opts.logger] | <code>Object</code> | Object to show logs. If you don't give, library use console.log |
 | [opts.app] | <code>Object (required)</code> | Koa app object. Is used to register /info endpoint |
-| [opts.callbackUpdate] | <code>Function</code> | This callback is called when api-gateway call to /info endpoint with the token and api-gateway url params. |
 
 
 ### requestToMicroservice([opts]) => Return result of request.
