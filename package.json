@@ -1,6 +1,6 @@
 {
   "name": "vizz.microservice-client",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Library for interact in the microservice with the api-gateway (register, unregister,  do request to other microservices, etc)",
   "main": "index.js",
   "scripts": {
